@@ -49,4 +49,4 @@ class ChiTietChiTieuActivity : AppCompatActivity() {
             finish()
         }
     }
-}}
+}
