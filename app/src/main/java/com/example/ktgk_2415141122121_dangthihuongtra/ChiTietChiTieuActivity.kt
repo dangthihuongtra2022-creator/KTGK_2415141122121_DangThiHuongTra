@@ -41,5 +41,12 @@ class ChiTietChiTieuActivity : AppCompatActivity() {
         btnQuayLai_121.setOnClickListener {
             finish()
         }
+        btnSua_121.setOnClickListener {
+            val intentKetQua_121 = intent.apply {
+                putExtra(" KET_QUAC_SUA", "Đã cập nhật khoản chi: $tenKhoanChi_121")
+            }
+            setResult(RESULT_OK, intentKetQua_121)
+            finish()
+        }
     }
 }}
