@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtTieuDe_121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đặng Thị Hương Trà - 2415141122121 - Quản lý chi tiêu cá nhân"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên khoản chi:" />
+    <EditText
+        android:id="@+id/edtTenKhoanChi_121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên khoản chi" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số tiền:"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/edtSoTien_121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Nhập số tiền" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú:"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/edtGhiChu_121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập ghi chú" />
+
+    <Button
+        android:id="@+id/btnThem_121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm khoản chi"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnXemChiTiet_121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem chi tiết khoản chi"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
